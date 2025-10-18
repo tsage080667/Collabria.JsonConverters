@@ -1,0 +1,46 @@
+## Build and project-related files ##
+# Visual Studio files
+.vs/
+*.pdb
+*.obj
+*.suo
+*.user
+*.bak
+*.ncb
+*.resource
+
+# Binaries and intermediate files
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+[Aa]rm/[Dd]ebug/
+[Aa]rm/[Rr]elease/
+x64/[Dd]ebug/
+x64/[Rr]elease/
+x86/[Dd]ebug/
+x86/[Rr]elease/
+[Tt]emp/
+*.log
+*.scc
+
+# Generated files for projects
+*.vcxproj.user
+*.vcxproj.filters
+
+# NuGet and related files
+packages/
+*.nupkg
+*.snk
+
+# Resharper and other IDE extensions
+*.resharper
+*.dotSettings
+
+# Visual Studio Code (if used)
+.vscode/
+
+## Other common ignores ##
+# Operating System files
+.DS_Store
+Thumbs.db
