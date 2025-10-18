@@ -12,5 +12,6 @@ public class SuccessCodeConverter : JsonConverter<bool>
 
     public override void Write(Utf8JsonWriter writer, bool value, JsonSerializerOptions options)
     {
+        writer.WriteBooleanValue(value);
     }
 }
